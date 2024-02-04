@@ -4,7 +4,7 @@ import os
 from langchain.prompts import PromptTemplate
 from langchain.prompts import FewShotPromptTemplate
 from langchain.prompts.example_selector import LengthBasedExampleSelector
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 
 #Backend
