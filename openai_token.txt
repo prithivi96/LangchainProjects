@@ -1,2 +1,2 @@
-os.environ['OPENAI_API_KEY'] = "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"
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ['OPENAI_API_KEY'] = ""
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
