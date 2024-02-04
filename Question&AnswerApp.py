@@ -6,10 +6,10 @@ import streamlit as st
 from langchain_community.llms import OpenAI, HuggingFaceHub
 import os
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 #When deployed on huggingface spaces, this values has to be passed using Variables & Secrets setting, as shown in the video :)
 #import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 #Function to return the response
 def load_answer(question):
